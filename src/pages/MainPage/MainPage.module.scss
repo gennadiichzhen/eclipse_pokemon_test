@@ -1,0 +1,23 @@
+.container {
+  padding: 20px 0;
+  min-height: calc(100vh - 100px);
+}
+
+div.loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__visible {
+    display: inline-block;
+  }
+}
+
+.modal {
+  width: 100%;
+  max-width: 640px;
+  padding: 20px;
+  margin: 0 auto;
+}

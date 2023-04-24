@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+:root {
+--color-type-normal: #646464;
+--color-type-fighting: #d56722;
+--color-type-flying: #6c8798;
+--color-type-poison: #a566b6;
+--color-type-ground: #867528;
+--color-type-rock: #67560c;
+--color-type-bug: #548818;
+--color-type-ghost: #7b61a2;
+--color-type-steel: #6a8888;
+--color-type-fire: #f83131;
+--color-type-water: #357eab;
+--color-type-grass: #68971d;
+--color-type-electric: #dfc416;
+--color-type-psychic: #c63f8e;
+--color-type-ice: #0fa0c8;
+--color-type-dragon: #d74a31;
+--color-type-dark: #707070;
+--color-type-fairy: #986e8c;
+--color-type-unknown: #646464;
+--color-type-shadow: #2b2e30;
+}

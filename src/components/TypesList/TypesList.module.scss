@@ -1,0 +1,95 @@
+.typeList {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.colorType {
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  font-size: 11px;
+  text-transform: capitalize;
+
+  &_normal {
+    background: var(--color-type-normal);
+  };
+
+  &_fighting {
+    background: var(--color-type-fighting);
+  };
+
+  &_flying {
+    background: var(--color-type-flying);
+  };
+
+  &_poison {
+    background: var(--color-type-poison);
+  };
+
+  &_ground {
+    background: var(--color-type-ground);
+  };
+
+  &_rock {
+    background: var(--color-type-rock);
+  };
+
+  &_bug {
+    background: var(--color-type-bug);
+  };
+
+  &_ghost {
+    background: var(--color-type-ghost);
+  };
+
+  &_steel {
+    background: var(--color-type-steel);
+  };
+
+  &_fire {
+    background: var(--color-type-fire);
+  };
+
+  &_water {
+    background: var(--color-type-water);
+  };
+
+  &_grass {
+    background: var(--color-type-grass);
+  };
+
+  &_electric {
+    background: var(--color-type-electric);
+  };
+
+  &_psychic {
+    background: var(--color-type-psychic);
+  };
+
+  &_ice {
+    background: var(--color-type-ice);
+  };
+
+  &_dragon {
+    background: var(--color-type-dragon);
+  };
+
+  &_dark {
+    background: var(--color-type-dark);
+  };
+
+  &_fairy {
+    background: var(--color-type-fairy);
+  };
+
+  &_unknown {
+    background: var(--color-type-unknown);
+  };
+
+  &_shadow {
+    background: var(--color-type-shadow);
+  };
+}

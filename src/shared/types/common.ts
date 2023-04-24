@@ -1,0 +1,1 @@
+export type OptionItem<T> = { id: number, value: T, label: string }
